@@ -13,7 +13,7 @@
 pragma solidity ^0.4.0;
 
 contract CallerContract {
-    CalledContract toBeCalled = new CalledContract ();
+    CalledContract toBeCalled = new CalledContract (0xadireccioncarteraether);
     
     function getNumer () constant returns(uint) {
         return toBeCalled.getNumer();
