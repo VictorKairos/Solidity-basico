@@ -9,3 +9,22 @@
  */
 
 /* Declaracion pragma */
+
+pragma solidity ^0.4.0;
+
+contract PayableContract {
+    
+    function PayableContract(){
+        
+    }
+    
+    //recibir dinero
+    function receiveFunds() payable {
+        
+    }
+    
+    //consultar balance
+    function getBalance() constant returns (uint) {
+        return this.balance;
+    }
+}
