@@ -10,8 +10,11 @@ Nov 2017: Proyectos básicos de solidity, desde variables a modificadores
  *	Fecha:	noviembre 2017
  *	Descripcion:		Ayudar a entender solidity desde cero a través de proyectos
  *                pequeños para llegar a realizar otros mayores.
- *
+ *                   Se ha testeado en:
+ *                      https://ethereum.github.io/browser-solidity/
+ *                      http://ethereum.github.io/browser-solidity/
  */
+ 
  
 /* Declaracion pragma */
 
